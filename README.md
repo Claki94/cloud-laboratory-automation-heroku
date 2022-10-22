@@ -1,4 +1,4 @@
-# Automate deployment with Heroku:
+# Automation deployment with Heroku:
 
 1. Create a repository in Github and link it to our local repository.
 2. Create a new app in Heroku.
@@ -18,3 +18,5 @@
   - Execute ```docker build``` command using as name the env variable previously created.
   - Push the image to the heroku registry with ```docker push``` command.
   - Finally, execute ```heroku container:release web``` with the app name.
+
+Heroku app with Docker container URL -> https://cloud-laboratory-automation-he.herokuapp.com/
